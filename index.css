@@ -1,0 +1,12 @@
+#my_name {
+    font-family: 'Libre Baskerville', serif;
+    color: #ff00bf;
+}
+
+#html_background_color {
+    height:100%;
+    background: linear-gradient(to top, #ffffff 0%, #ccccff 100%) no-repeat;
+}
+
+.prominent_text {font-size:7vw;}
+.subtext {font-size:2vw;}
