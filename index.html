@@ -11,22 +11,6 @@
     </head>
     <body>
         <div class="w3-container">
-            <div id="about_me" class="w3-modal w3-animate-opacity">
-                <div class="w3-modal-content w3-card-4">
-                  <header class="w3-container w3-teal"> 
-                    <span id="about_me_modal_close" class="w3-button w3-large w3-display-topright">&times;</span>
-                    <h2>About Yuval Shechter</h2>
-                  </header>
-                  <div class="w3-container">
-                    <p>
-                        My name is Yuval Shechter and I am currently a computer science freshman at 
-                        University of Massachusetts Amherst.
-                    </p>
-                  </div>
-                </div>
-            </div>
-
-
             <div class="w3-row w3-padding-small">
                 <div class="w3-col w3-cell w3-center w3-card-4 w3-blue">
                     <h1 class="w3-row prominent_text" id="my_name">Yuval Shechter</h1>
@@ -38,7 +22,7 @@
                     <div class="w3-padding">
                         <li class="w3-bar w3-leftbar w3-border-black w3-hover-border-pink">
                             <a href="https://github.com/YuvalShechter" target="_blank">
-                                <img src="assets/github.png" class="w3-bar-item" style="width: 15%">
+                                <img id="list_picture" src="assets/github.png" class="w3-bar-item">
                                 <div class="w3-bar-item">
                                     <span class="w3-large">Github</span><br>
                                     <span>https://github.com/YuvalShechter</span>
@@ -50,7 +34,7 @@
                     <div class="w3-padding">
                         <li class="w3-bar w3-leftbar w3-border-black w3-hover-border-pink">
                             <a href="https://www.linkedin.com/in/yuval-shechter" target="_blank">
-                                <img src="assets/linkedin.png" class="w3-bar-item" style="width: 15%">
+                                <img id="list_picture" src="assets/linkedin.png" class="w3-bar-item">
                                 <div class="w3-bar-item">
                                     <span class="w3-large">Linkedin</span><br>
                                     <span>https://www.linkedin.com/in/yuval-shechter</span>
@@ -62,7 +46,7 @@
                     <div class="w3-padding">
                         <li class="w3-bar w3-leftbar w3-border-black w3-hover-border-pink">
                             <a href="https://www.youtube.com/watch?v=NAh9oLs67Cw" target="_blank">
-                                <img src="assets/mail.png" class="w3-bar-item" style="width: 15%">
+                                <img id="list_picture" src="assets/mail.png" class="w3-bar-item">
                                 <div class="w3-bar-item">
                                     <span class="w3-large">Mail</span><br>
                                     <span>y_shechter [at] outlook [dot] com</span>
@@ -72,8 +56,11 @@
                     </div>
                 </div>
                 <div class="w3-col m5 w3-padding-large">
-                    <div id="about_me_modal_open" class="w3-round-large w3-cell w3-center w3-hover-shadow w3-btn w3-cyan">
+                    <div id="about_me_modal_open" class="w3-round-large w3-cell w3-center w3-hover-shadow w3-btn">
                         <p class="prominent_text" style="color: #ffff99">About Me</p>
+                    </div>
+                    <div id="about_me_modal_close" class="w3-round-large w3-cell w3-center w3-hover-shadow w3-btn">
+                        <p id="about_me_text" class="subtext">My name is Yuval Shechter</p>
                     </div>
                 </div>
             </div>

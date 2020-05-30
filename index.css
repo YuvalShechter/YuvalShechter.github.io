@@ -12,5 +12,13 @@
     background: linear-gradient(to bottom left, red 0%, blue 100%) no-repeat;
 }
 
+#about_me_modal_close {
+    display: none;
+    background: rgb(255, 174, 0);
+}
+
+#about_me_text {color: black;}
+#list_picture {width:15%;}
+
 .prominent_text {font-size:7vw;}
 .subtext {font-size:2vw;}
