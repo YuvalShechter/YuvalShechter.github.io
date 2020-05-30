@@ -8,5 +8,9 @@
     background: linear-gradient(to top, #ffffff 0%, #ccccff 100%) no-repeat;
 }
 
+#about_me_modal_open {
+    background: linear-gradient(to bottom left, red 0%, blue 100%) no-repeat;
+}
+
 .prominent_text {font-size:7vw;}
 .subtext {font-size:2vw;}
