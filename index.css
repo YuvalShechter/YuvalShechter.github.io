@@ -17,7 +17,11 @@
     background: rgb(255, 174, 0);
 }
 
-#about_me_text {color: black;}
+#about_me_text {
+    color: black;
+    white-space: normal;
+}
+
 #list_picture {width:15%;}
 
 .prominent_text {font-size:7vw;}
